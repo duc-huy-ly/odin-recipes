@@ -1,12 +1,17 @@
 * {
   font-family:'Times New Roman', Times, serif;
 }
-html {
-  background-color: beige(181, 9, 104);
-}
-.title {
+
+.title-container {
   text-align: center;
+  padding : 5px;
   background-color: rgb(228, 231, 182);
+  border: 5px dotted;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 11px;
 }
 
 .center, .description {
@@ -18,4 +23,31 @@ html {
 
 .return {
   text-align: right;
+}
+
+h1 {
+  margin : 5px 0px;
+}
+h2 {
+  margin: 10px;
+
+}
+
+.container {
+  display: flex;
+  /* padding: 5px 30px; */
+  margin : px;
+  background : peachpuff;
+
+}
+
+.container .recipe {
+  text-align: center;
+  flex: 1;
+  outline: 1px solid;
+}
+
+.link {
+  text-align: center;
+  font-size: 10px;
 }
