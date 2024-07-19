@@ -10,9 +10,6 @@
   margin-bottom: 10px;
 }
 
-.description {
-  font-size: 23px;
-}
 
 .center, .description {
   display: block;
@@ -20,6 +17,10 @@
   margin-right: auto;
   width: 50%;
 }
+.description {
+  font-size: 23px;
+}
+
 
 .return {
   text-align: right;
