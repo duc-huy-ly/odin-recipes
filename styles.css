@@ -11,7 +11,7 @@
 }
 
 .description {
-  font-size: 11px;
+  font-size: 23px;
 }
 
 .center, .description {
@@ -27,9 +27,11 @@
 
 h1 {
   margin : 5px 0px;
+  font-size: 66px;
 }
 h2 {
   margin: 10px;
+  font-size: 50px;
 
 }
 
@@ -49,5 +51,5 @@ h2 {
 
 .link {
   text-align: center;
-  font-size: 10px;
+  font-size: 21px;
 }
